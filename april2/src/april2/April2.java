@@ -17,7 +17,7 @@ public class April2 {
        {
        int n=in.nextInt();
        int k=in.nextInt();
-       int [] ing=new int[k];
+       int[] ing=new int[k];
        for(int i=0;i<k;i++)
        {
            ing[i]=i+1;
