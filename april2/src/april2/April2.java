@@ -12,12 +12,12 @@ public class April2 {
     
     public static void main(String[] args) {
        Scanner in=new Scanner(System.in);
-       int t=in.nextInt();
-       for(int h=0;h<t;h++)
+       int times=in.nextInt();
+       for(int h=0;h<times;h++)
        {
        int n=in.nextInt();
        int k=in.nextInt();
-       int [] ing=new int[k];
+       int[] ing=new int[k];
        for(int i=0;i<k;i++)
        {
            ing[i]=i+1;
